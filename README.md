@@ -1,4 +1,4 @@
-Chat App
+##Chat App
 This is a simple chat application built using React. The app allows users to send and receive messages in real-time. Users can also see a list of online users and mention other users by typing "@" followed by their name.
 
 Features
