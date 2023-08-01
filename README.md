@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+Chat App
+This is a simple chat application built using React. The app allows users to send and receive messages in real-time. Users can also see a list of online users and mention other users by typing "@" followed by their name.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+Real-time messaging: Users can send and receive messages in real-time without the need to refresh the page.
+Online users: The app shows a list of online users who are currently active.
+Mention users: Users can mention other users by typing "@" followed by their name. The app will suggest a list of matching users as the user types.
+Like messages: Users can like messages sent by other users.
+Technologies Used
+React: Frontend library for building user interfaces.
+HTML/CSS: For structuring and styling the user interface.
 
-## Available Scripts
+Getting Started
+To run the app locally, follow these steps:
 
-In the project directory, you can run:
+Clone the repository: git clone <repository_url>
+Navigate to the project directory: cd chat-app
+Install dependencies: npm install
+Start the development server: npm start
+Open your browser and go to http://localhost:3000 to view the app.
 
-### `npm start`
+Usage
+Enter your name in the input field at the bottom of the chat window.
+Type a message in the input field and click the "Send" button or press the Enter key to send a message.
+To mention a user, type "@" followed by their name. The app will show a dropdown with matching user names for you to select from.
+To like a message, click the "Like" button beside the message.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Folder Structure
+public: Contains the static files and the main HTML file.
+src: Contains the source code of the React app.
+Components: Contains the reusable components used in the app.
+App.js: Main component that renders the chat app.
+index.js: Entry point of the React app.
+server.js: Backend server code using Express.js and Socket.IO.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contributing
+Feel free to contribute to this project by creating issues or pull requests. Your feedback and suggestions are welcome!
